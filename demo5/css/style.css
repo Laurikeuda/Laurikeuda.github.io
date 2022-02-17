@@ -25,7 +25,7 @@
      scroll-behavior: smooth;
 }
  body {
-     color: #666666;
+     color: #690158;
      font-size: 14px;
      font-family: 'poppins', sans-serif;
      line-height: 1.80857;
@@ -71,9 +71,10 @@
      font-size: 13px 
 }
  *, *::after, *::before {
-     -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-     box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+     
 }
  h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
      color: #212121;
@@ -109,8 +110,10 @@
      transition: all .3s ease-in-out;
 }
  img {
-     max-width: 100%;
+     min-width: 120%;
      height: auto;
+     border-image-slice: fill;
+
 }
  :focus {
      outline: 0;
@@ -1133,6 +1136,7 @@
 }
  .b_bold {
     font-size: 90px;
+    color: rgb(55, 255, 145);
 }
  .text-bg span {
     font-size: 17px;
@@ -1414,12 +1418,15 @@
  .We_are .titlepage {
      padding-bottom: 60px;
      text-align: center;
+     font-style: bold;
+     font-size: larger;
 }
  .We_are .titlepage h2 {
     margin-bottom: 30px;
+    font-style: italic;
 }
  .We_are .titlepage span {
-     color: #3d3c3c;
+     color: #610daf;
      font-size:17px;
      line-height: 25px;
 }
