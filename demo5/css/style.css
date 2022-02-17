@@ -1494,10 +1494,10 @@
      padding: 0px 0px 6px 0px;
      text-transform: uppercase;
      font-weight: bold;
-     color: #fff;
+     color: rgb(17, 235, 162);
      line-height: 46px;
-     border-bottom: #fff solid 1px;
-     font-size: 40px;
+     border-bottom: rgb(35, 219, 127) solid 10px;
+     font-size: 60px;
      width: 367px;
      margin: 0 auto;
      margin-bottom: 60px;
@@ -1555,10 +1555,10 @@
  .titlepage h2 {
      padding: 0px 0px 6px 0px;
      font-weight: bold;
-     color: #000;
+     color: rgb(122, 11, 108);
      line-height: 46px;
-     border-bottom: #000 solid 1px;
-     font-size: 40px;
+     border-bottom: rgb(159, 25, 172) solid 10px;
+     font-size: 60px;
      width: 367px;
      margin: 0 auto;
      text-transform: uppercase;
@@ -1580,18 +1580,18 @@
      font-weight: 500;
 }
  .clients .clients_box p {
-     color: #000;
+     color: rgb(197, 7, 32);
      font-size: 17px;
      line-height: 28px;
      font-weight: 400;
-     color: #1a1a1b;
+     color: #1b9e98;
 }
  .clients .clients_box i {
      display: inline-block;
 }
  .clients .clients_box span {
-     color: #6e6e6e;
-     font-size: 16px;
+     color: #ea00ff;
+     font-size: 26px;
      padding-bottom: 5px;
      display: inline-block;
 }
