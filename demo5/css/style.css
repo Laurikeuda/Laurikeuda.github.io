@@ -25,7 +25,7 @@
      scroll-behavior: smooth;
 }
  body {
-     color: #666666;
+     color: #690158;
      font-size: 14px;
      font-family: 'poppins', sans-serif;
      line-height: 1.80857;
@@ -71,9 +71,10 @@
      font-size: 13px 
 }
  *, *::after, *::before {
-     -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-     box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+     
 }
  h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
      color: #212121;
@@ -109,8 +110,10 @@
      transition: all .3s ease-in-out;
 }
  img {
-     max-width: 100%;
+     min-width: 120%;
      height: auto;
+     border-image-slice: fill;
+
 }
  :focus {
      outline: 0;
@@ -1133,6 +1136,7 @@
 }
  .b_bold {
     font-size: 90px;
+    color: rgb(55, 255, 145);
 }
  .text-bg span {
     font-size: 17px;
@@ -1414,12 +1418,15 @@
  .We_are .titlepage {
      padding-bottom: 60px;
      text-align: center;
+     font-style: bold;
+     font-size: larger;
 }
  .We_are .titlepage h2 {
     margin-bottom: 30px;
+    font-style: italic;
 }
  .We_are .titlepage span {
-     color: #3d3c3c;
+     color: #610daf;
      font-size:17px;
      line-height: 25px;
 }
@@ -1487,10 +1494,10 @@
      padding: 0px 0px 6px 0px;
      text-transform: uppercase;
      font-weight: bold;
-     color: #fff;
+     color: rgb(17, 235, 162);
      line-height: 46px;
-     border-bottom: #fff solid 1px;
-     font-size: 40px;
+     border-bottom: rgb(35, 219, 127) solid 10px;
+     font-size: 60px;
      width: 367px;
      margin: 0 auto;
      margin-bottom: 60px;
@@ -1548,10 +1555,10 @@
  .titlepage h2 {
      padding: 0px 0px 6px 0px;
      font-weight: bold;
-     color: #000;
+     color: rgb(122, 11, 108);
      line-height: 46px;
-     border-bottom: #000 solid 1px;
-     font-size: 40px;
+     border-bottom: rgb(159, 25, 172) solid 10px;
+     font-size: 60px;
      width: 367px;
      margin: 0 auto;
      text-transform: uppercase;
@@ -1573,18 +1580,18 @@
      font-weight: 500;
 }
  .clients .clients_box p {
-     color: #000;
+     color: rgb(197, 7, 32);
      font-size: 17px;
      line-height: 28px;
      font-weight: 400;
-     color: #1a1a1b;
+     color: #1b9e98;
 }
  .clients .clients_box i {
      display: inline-block;
 }
  .clients .clients_box span {
-     color: #6e6e6e;
-     font-size: 16px;
+     color: #ea00ff;
+     font-size: 26px;
      padding-bottom: 5px;
      display: inline-block;
 }
