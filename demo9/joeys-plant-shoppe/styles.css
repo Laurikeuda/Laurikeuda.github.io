@@ -1,0 +1,16 @@
+* {margin:0;padding:0;}
+body {margin:0px auto; font:76% Verdana,tahoma,sans-serif #333; background:#FFF url("img/bg.png") repeat-x;}
+h1 {margin:0px 0 4px 0px; padding:4px 0 6px 140px; font-family:Georgia, "Times New Roman", Times, serif; font-size:3.8em; color:#54302C; background:url("img/logo.png") bottom right no-repeat;}
+h2 {margin:8px 0 0 300px; font-size:1em; color:#333; text-align:right; border-bottom:1px solid #CCCCCC;}
+a, a:link {color:#48310F; text-decoration:none; border-bottom:1px dotted #000;}
+a:hover {color:#915803; border-bottom:1px solid #915803;}
+ul li { color:#d2b283; padding:.25em 0; list-style-type:square; font-family:Georgia, "Times New Roman", Times, serif; font-weight:bold;}
+#wrapper {margin:0em auto; width:990px;}
+#header {height:440px; background:url("img/joey04.png") top left no-repeat;}
+#header #hleft, #hright {font-size:0.8em; color:#666; margin:20px 0 0 340px; padding:20px; width:260px; float:left; text-align:left;}
+#header #hright {margin-left:20px; background-color:#EFEFEF; color:#333; border:1px solid #DDD;}
+#footer {width:100%; height:600px; background:#48310F;}
+#fwrapper {display:block; width:990px; margin:0 auto;}
+#fwrapper a, #fwrapper a:link {color:#FFCC99;}
+#fleft, #fcenter, #fright {float:left; color:#F2EDE6; width:286px; font-size:0.75em; float:left; padding:20px 12px 20px 28px;}
+
