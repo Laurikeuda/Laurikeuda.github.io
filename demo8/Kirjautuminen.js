@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", onkoKirjautunut);
 
 function onkoKirjautunut() {
-    if(kirjautunut === 'kylla'){
+    if(localStorage.getItem("kirjautunut") === "kylla"){
         document.getElementById('tervetulo_teksti').textContent += localStorage.getItem("nimi");
         document.getElementById("kirjautumis_lomake").style.display ="none";
     }
@@ -13,7 +13,7 @@ function kirjaudu() {
 }
 
 function kirjauduUlos() {
-    if(kirjautunut === 'ei'){
+    if(kirjautunut === 'kylla'){
         localStorage.clear();
     }
 }
