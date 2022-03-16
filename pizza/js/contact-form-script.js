@@ -10,6 +10,10 @@ $("#contactForm").validator().on("submit", function (event) {
     }
 });
 
+document.getElementById("asiakaspalaute").onclick{
+console.log("Kiitos palautteestasi!");
+};
+
 
 
 function submitForm(){
