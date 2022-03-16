@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="fi" dir="ltr">
+    <head>
+        <meta charset="UTF-8">
+        <title>Tilaa</title>
+        <link rel="stylesheet" href="css/tilaus.css">
+        <script type="text/javascript" language="javascript" src="js/tilaus.js"></script>
+    </head>
+
+    <body>
+        <div id="alku">
+            <form id="alku_lista">
+                <H1>Vantaan Herkku Pizza</H1>
+                <p></p>
+            </form>
+        </div>
+        <div class="kotisivu_paluu">
+            <form id="paluukoti_lista">
+                <p></p>
+                <a class="koti-link" href="index.html">Palaa kotisivulle</a>
+                <p></p>
+            </form>
+        </div>
+        <h2 class="menuteksti">Menu</h2>
+        <div id="Pizza1">
+            <form id="pizza_lista">
+                <img src="images/pepperoni.jpg" alt="">
+                <br>
+                <h2 class="pizzanimi">Pienet pepperonipizzat</h2>
+                <span class="pepperonitieto">Tomaattikastiketta, juustoa ja pepperonia</span>
+                <br>
+                <br>
+                <input id="pizza_nappi" type="submit" value="Lisää tilaukseen" onClick="pizza1()">
+            </form>
+        </div>
+        <div id="poistapizza">
+            <form id="poistapizza1_lista">
+                <input id="pizza_nappi" type="submit" value="Poista tilauksesta" onClick="poista1()">
+            </form>
+        </div>
+        <div id="Pizza2">
+            <form id="pizza_lista">
+                <img src="images/meatlove.jpg" alt="">
+                <br>
+                <h2 class="pizzanimi">Lasten lihapulla pizza</h2>
+                <span class="pepperonitieto">Tomaattikastiketta, juustoa ja lihapullia</span>
+                <br>
+                <br>
+                <input id="pizza_nappi" type="submit" value="Lisää tilaukseen" onClick="pizza2()">
+            </form>
+        </div>
+        <div id="poistapizza">
+            <form id="poistapizza2_lista">
+                <input id="pizza_nappi" type="submit" value="Poista tilauksesta" onClick="poista2()">
+            </form>
+        </div>
+        <div id="Pizza3">
+            <form id="pizza_lista">
+                <img src="images/minipizza" alt="">
+                <br>
+                <h2 class="pizzanimi">Lasten minipizzat</h2>
+                <span class="pepperonitieto">Tomaattikastiketta, juustoa ja pepperonia</span>
+                <br>
+                <br>
+                <input id="pizza_nappi" type="submit" value="Lisää tilaukseen" onClick="pizza3()">
+            </form>
+        </div>
+        <div id="poistapizza">
+            <form id="poistapizza3_lista">
+                <input id="pizza_nappi" type="submit" value="Poista tilauksesta" onClick="poista3()">
+            </form>
+        </div>
+        <div id="Pizza4">
+            <form id="pizza_lista">
+                <img src="images/liha.jpg" alt="">
+                <br>
+                <h2 class="pizzanimi">Lihan ystävät</h2>
+                <span class="pepperonitieto">Tomaattikastiketta, juustoa, paprikaa, pepperonia, salamia ja lihapullia</span>
+                <br>
+                <br>
+                <input id="pizza_nappi" type="submit" value="Lisää tilaukseen" onClick="pizza4()">
+            </form>
+        </div>
+        <div id="poistapizza">
+            <form id="poistapizza4_lista">
+                <input id="pizza_nappi" type="submit" value="Poista tilauksesta" onClick="poista4()">
+            </form>
+        </div>
+        <div id="Pizza5">
+            <form id="pizza_lista">
+                <img src="images/kanakebab.jpg" alt="">
+                <br>
+                <h2 class="pizzanimi">Kanakebab pizza</h2>
+                <span class="pepperonitieto">Tomaattikastiketta, juustoa, kanakebabbia ja rukolaa</span>
+                <br>
+                <br>
+                <input id="pizza_nappi" type="submit" value="Lisää tilaukseen" onClick="pizza5()">
+            </form>
+        </div>
+        <div id="poistapizza">
+            <form id="poistapizza5_lista">
+                <input id="pizza_nappi" type="submit" value="Poista tilauksesta" onClick="poista5()">
+            </form>
+        </div>
+        <div id="Pizza6">
+            <form id="pizza_lista">
+                <img src="images/isokinkku.jpg" alt="">
+                <br>
+                <h2 class="pizzanimi">Iso kinkku pizza</h2>
+                <span class="pepperonitieto">Tomaattikastiketta, juustoa ja kinkkua</span>
+                <br>
+                <br>
+                <input id="pizza_nappi" type="submit" value="Lisää tilaukseen" onClick="pizza6()">
+            </form>
+        </div>
+        <div id="poistapizza">
+            <form id="poistapizza6_lista">
+                <input id="pizza_nappi" type="submit" value="Poista tilauksesta" onClick="poista6()">
+            </form>
+        </div>
+        <br>
+        <br>
+        <div id="tilatuttuotteet">
+            <form id="tilatuttuotteet_lista">
+                <h2 class="tilapaa">Valitsemasi tuotteet</h2>
+                <br>
+                <br>
+                <span></span>
+            </form>
+        </div>
+    </body>
+</html>
