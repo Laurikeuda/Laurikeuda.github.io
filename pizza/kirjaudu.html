@@ -4,57 +4,78 @@
         <meta charset="UTF-8">
         <title>Kirjaudu</title>
         <script src="js/rekisterointi.js"></script>
+        <link rel="stylesheet" href="css/kirjaudu.css">
     </head>
 
     <body>
         <div class="kirrek_napit">
             <form id="kirrek_lista">
+                <H1>Vantaan Herkku Pizza</H1>
+                <p></p>
                 <input id="kirjaudu_nappi" type="submit" value="Kirjaudu" onClick="kirjaudu()">
-                <br>
+                <p></p>
                 <input id="rekisteroi_nappi" type="submit" value="Rekisteröidy" onClick="rekisteoi()">
             </form>
         </div>
         <div class="rekisterointi">
             <form id="rekisterointi_lista">
+                <H1>Vantaan Herkku Pizza</H1>
+                <p></p>
                 <label for="kayttajanimi">Käyttäjänimi: </label>
                 <input id="kayttajanimi" type="text" required maxlength="10" minlength="4">
-                <br>
+                <p></p>
                 <label for="password">Salasana: </label>
                 <input id="password" type="password" required minlength="5" maxlength="12">
-                <br>
+                <p></p>
                 <input id="rekisteroi" type="submit" value="Rekisteröidy" onClick="rekisteroidytty()">
             </form>
         </div>
         <div class="kirjaudu">
             <form id="kirjautumis_lista">
+                <H1>Vantaan Herkku Pizza</H1>
+                <p></p>
                 <label for="kayttajanimien">Käyttäjänimi: </label>
                 <input id="kayttajanimien" type="text" required maxlength="10" minlength="4">
-                <br>
+                <p></p>
                 <label for="passwords">Salasana: </label>
                 <input id="passwords" type="password" required minlength="5" maxlength="12">
-                <br>
+                <p></p>
                 <input id="kirjaudu" type="submit" value="Kirjaudu" onClick="kirjaudutan()">
             </form>
         </div>
         <div class="peruutarec">
             <form id="peruutarek_lista">
+                <p></p>
                 <input id="peruutrekisterointi" type="submit" value="Peruuta" onClick="peruutarek()">
             </form>
         </div>
         <div class="peruutakir">
             <form id="peruutakir_lista">
+                <p></p>
                 <input id="peruutakirjau" type="submit" value="Peruuta" onClick="peruutakir()">
             </form>
         </div>
         <div class="kotisivu_paluu">
             <form id="paluukoti_lista">
+                <p></p>
                 <a class="koti-link" href="index.html">Palaa kotisivulle</a>
+                <p></p>
             </form>
         </div>
         <div class="kirjautuminenon">
             <form id="kirjautuminenon_lista">
-                <p>kirjautuminen onnistui palaa tästä kotisivulle</p>
+                <H1>Vantaan Herkku Pizza</H1>
+                <p></p>
+                <p>Kirjautuminen onnistui palaa tästä kotisivulle</p>
                 <a class="koti-link" href="index.html">Palaa kotisivulle</a>
+            </form>
+        </div>
+        <div class="kirjaudu-ulos">
+            <form id="kirjaa_ulos">
+                <p></p>
+                <p>Tai</p>
+                <p></p>
+                <input id="kirjaudu-ulos" type="submit" value="Kirjaudu ulos" onClick="kirjaaulos()">
             </form>
         </div>
     </body>

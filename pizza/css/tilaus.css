@@ -1,0 +1,39 @@
+body {
+    background-color: antiquewhite;
+}
+
+
+h1 {
+    text-align: center;
+    padding: 25px;
+    background-color: red;
+    color: green;
+}
+
+img {
+    height: 250px;
+    width: 300px;
+    
+}
+
+#pizzanimi{
+    text-align: center;
+    font-size: 20;
+}
+
+#pizza_lista {
+    padding-top: 75px;
+    text-align: center;
+}
+
+input[type=submit] {
+    width: 20em; 
+    height: 2em;
+    background-color: red;
+}
+
+.menuteksti {
+    text-align: center;
+    font-size: 50px;
+
+}
