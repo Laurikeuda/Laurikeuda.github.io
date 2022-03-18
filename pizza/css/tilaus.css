@@ -10,6 +10,19 @@ h1 {
     color: green;
 }
 
+.koti-link {
+    font: bold 13px Arial;
+    text-decoration: none;
+    background-color: #EEEEEE;
+    color: #333333;
+    padding: 1px 6px 2px 6px;
+    border-top: 1px solid #CCCCCC;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #CCCCCC;
+    padding-left: 10px;
+}
+
 img {
     height: 250px;
     width: 300px;
@@ -36,4 +49,59 @@ input[type=submit] {
     text-align: center;
     font-size: 50px;
 
+}
+
+#tilatuttuotteet {
+    text-align: center;
+    background-color: beige;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    
+}
+
+#tilaamasi {
+    text-align: center;
+    font-size: 15px;
+}
+
+#poistapizza1_lista {
+    padding-top: 25px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+#poistapizza2_lista {
+    padding-top: 25px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+#poistapizza3_lista {
+    padding-top: 25px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+#poistapizza4_lista {
+    padding-top: 25px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+#poistapizza5_lista {
+    padding-top: 25px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+#poistapizza6_lista {
+    padding-top: 25px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+#poistafantasia_lista {
+    padding-top: 25px;
+    padding-bottom: 10px;
+    text-align: center;
 }
